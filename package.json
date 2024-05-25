@@ -1,0 +1,21 @@
+{
+  "name": "fari-cli-quiz-application",
+  "version": "1.0.0",
+  "description": "\"A Simple quiz application using Typescript, NodeJS, and Inquirer.\"",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fariha Asif",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.21"
+  }
+}
